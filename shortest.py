@@ -9,7 +9,7 @@ def shortest(makeRecursiveCall):
         return
 
 
-print('Calling sortest(False):')
+print('Calling shortest(False):')
 shortest(False)
-print('Calling sortest(True):')
+print('Calling shortest(True):')
 shortest(True)
