@@ -9,4 +9,4 @@ def countUpandDown(number):
         return
 
 
-countUpandDown(5)
+countUpandDown(0)
