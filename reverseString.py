@@ -1,12 +1,10 @@
-def reverse(string):
-
-    if len(string)==0:
-        return ''
+def reverse(phrase):
+    if len(phrase) == 1:
+        return phrase
     else:
-        head = string[0]
-        tail = string[1:]
+        head = phrase[0]
+        tail = phrase[1:]
         return reverse(tail) + head
 
 
-a = 'I need some water'
-print(reverse(a))
+print(reverse('A man, a plan, a canal: Panama'))
